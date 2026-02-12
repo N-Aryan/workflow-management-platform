@@ -1,51 +1,78 @@
-# CRM Project with MERN Stack
+# Workflow Management Platform
 
-Welcome to our CRM (Customer Relationship Management) Project built with the MERN (MongoDB, Express.js, React.js, Node.js) stack.
+A full-stack Workflow Management Platform built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
-## Overview
+This system enables structured workflow execution through role-based dashboards, task allocation, and ticket tracking, designed for scalable team collaboration environments.
 
-This project implements a comprehensive CRM solution with role-based authentication, offering both Admin and User Dashboards for managing customer relationships, tickets, and tasks.
+---
 
-## Features
+## 🚀 Key Highlights
 
-### Admin Dashboard
+- Role-Based Access Control (Admin / User)
+- JWT Authentication & Secure Session Handling
+- Modular Backend Architecture
+- RESTful API Design
+- Dynamic Dashboard Visualizations
+- Workflow & Task Lifecycle Management
 
-- **User Management**: Create, edit, update, and delete user profiles.
-- **Ticket Management**: Manage ticket status (Pending, Approved, Resolved) for user-specific tickets.
-- **Task Assignment**: Create and manage tasks, assign tasks to users, edit, and delete tasks.
-- **Visualization**: Visual representation of user statistics, tickets, and tasks.
+---
 
-- **User Status Management**: Admins can change the status of users between Active and Inactive.
-  - Active users can log in and access their User Dashboard.
-  - Inactive users are restricted from logging in and accessing their User Dashboard.
+## 🧩 System Architecture
 
-### User Dashboard
+### Admin Capabilities
+- Manage user accounts (Create / Update / Deactivate)
+- Assign and monitor tasks
+- Track workflow progress
+- Manage ticket resolution pipeline
+- View system statistics and activity insights
 
-- **Ticket Creation**: Create coding-related problem tickets.
-- **Ticket Submission**: Submit tickets for review and resolution by the admin.
-- **Task Submission**: Submit tasks assigned by the admin.
-- **Visualization**: Overview of submitted and pending tickets, tasks, and statistics.
+### User Capabilities
+- Create and submit workflow tickets
+- Track assigned tasks
+- Monitor submission status
+- Dashboard-based progress overview
 
-### Authentication and Authorization
+---
 
-- **Role-based Access**: Admins have exclusive access to the Admin Dashboard, while users can access their User Dashboard.
-- **Token-based Authentication**: Implementation of JWT for secure authentication and authorization.
-- **Password Management**: Forgot password, reset password functionality included.
+## 🔐 Authentication & Security
 
-## Installation
+- JSON Web Token (JWT) authentication
+- Protected routes using middleware
+- Role-based authorization
+- Password reset & secure credential handling
 
-To get started with the CRM Project:
+---
 
-1. Clone the repository:
+## 🛠️ Tech Stack
 
-   ```bash
-   git clone https://github.com/HarishVinayagamoorthy/CRM-MERN
+Frontend:
+- React (Vite)
+- Context API / State Management
+- Responsive UI Design
+
+Backend:
+- Node.js
+- Express.js
+- MongoDB (Mongoose ODM)
+- JWT
+
+---
+
+## 👤 Author
+
+Aryan Narang  
+Full-Stack Developer | MERN Stack  
 
 
 
-- **Admin Email:** admin@gmail.com
-- **Admin Password:**@Password123
 
-- **User Email:** user@gmail.com
-- **User Password:**@Password123
+
+
+
+
+
+
+
+
+
    
