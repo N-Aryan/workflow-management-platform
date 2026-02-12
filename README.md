@@ -61,7 +61,7 @@ Backend:
 ## 👤 Author
 
 Aryan Narang  
-Full-Stack Developer | MERN Stack  
+Full-Stack Developer || MERN Stack  
 
 
 
